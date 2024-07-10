@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.newsletter-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.newsletter-container h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.newsletter-form h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.newsletter-form p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.newsletter-form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+.newsletter-form input[type="text"],
+.newsletter-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+.newsletter-form button {
+    background-color: #138a2f;
+    padding: 5px 150px;
+    color: #ffffff;
+    border: none;
+}
